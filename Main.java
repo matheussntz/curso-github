@@ -14,6 +14,12 @@ public class Main {
 		System.out.print("Coeficiente c: ");
 		double c = sc.nextDouble();
 
+		double delta = Math.pow(b, 2) - 4 * a * c;
+		
+		
+		if (delta < 0) {
+	    	System.out.println("Esta equacao nao possui raizes reais");
+		}
         
 
 
