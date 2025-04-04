@@ -20,8 +20,13 @@ public class Main {
 		if (delta < 0) {
 	    	System.out.println("Esta equacao nao possui raizes reais");
 		}
-        
+        else {
+	        double x1 = ((-b) + Math.sqrt(delta)) / (2 * a);
+	        double x2 = ((-b) - Math.sqrt(delta)) / (2 * a);
 
+	        System.out.printf("X1 = %.4f%n", x1);
+	        System.out.printf("X2 = %.4f%n", x2);
+		}	
 
 		sc.close();
     }
